@@ -1,0 +1,56 @@
+#	---BROWSER---
+
+super + b
+    brave
+
+super + shift + b
+    brave --incognito
+
+super + a
+    brave --new-window agora.unileon.es
+
+super + shift + a
+    brave --new-window github.com
+
+super + h
+    brave --new-window https://ingenierias.unileon.es/horario-semanal-2023-2024/1-ing-informatica-b/ 
+
+#	---MEDIA---
+
+super + @F1 
+    amixer set Master toggle	
+
+super + @F2
+    amixer set 'Master' 5%-
+
+super + @F3
+    amixer set 'Master' 5%+
+
+super + @F4
+    light -U 2.5
+
+super + @F5
+    light -A 2.5
+
+#	---SYSTEM---
+
+alt + shift + @F4
+	poweroff
+
+alt + shift + @F5
+	reboot
+
+super + l
+	slock	
+
+super + @space
+	setxkbmap -layout es -option "caps:escape"
+
+#	---PROGRAM LAUNCHER ---
+
+super + m
+	brave --new-window mail.tutanota.com/login
+
+super + shift + m 
+	brave --new-window gmail.com 
+		
